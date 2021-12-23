@@ -18,7 +18,7 @@ function Header() {
 
         <li>
           <Link href="/">
-            <button className="">blog</button>
+            <button className="">about</button>
           </Link>
         </li>
         <li>

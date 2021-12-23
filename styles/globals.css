@@ -245,7 +245,8 @@ p {
   position: relative;
   top: 100px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bandcamp {
@@ -253,4 +254,20 @@ p {
   border: 0;
   width: 200px;
   height: 280px;
+}
+
+.bandcamp-links {
+  text-align: center;
+}
+
+.box {
+  cursor: pointer;
+  max-width: fit-content;
+  transition: 1s;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.box:hover {
+  background-color: rgb(49, 238, 255);
+  border: none;
 }
